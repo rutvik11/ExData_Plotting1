@@ -13,7 +13,7 @@ household_df <- household_df[(household_df$Date >= "2007-02-01") & (household_df
 # Create a variable DateTime 
 household_df$DateTime <- as.POSIXct(paste(household_df$Date, household_df$Time), "%d/%m/%Y %H:%M:%S")
 
-png("plot2.png", width=480, height=480)
+png("plot4.png", width=480, height=480)
 
 # Plot 4
 par(mfrow = c(2,2))
